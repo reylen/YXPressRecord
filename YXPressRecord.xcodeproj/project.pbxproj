@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0216441D5C20480050E5BE /* YXPressRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0216411D5C20480050E5BE /* YXPressRecordView.m */; };
+		2E0216451D5C20480050E5BE /* YXSpeechView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E0216431D5C20480050E5BE /* YXSpeechView.mm */; };
+		2EDF42FA1D5B194300300351 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF42F91D5B194300300351 /* main.m */; };
+		2EDF42FD1D5B194300300351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF42FC1D5B194300300351 /* AppDelegate.m */; };
+		2EDF43001D5B194300300351 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF42FF1D5B194300300351 /* ViewController.m */; };
+		2EDF43051D5B194400300351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF43041D5B194400300351 /* Assets.xcassets */; };
+		2EDF43081D5B194400300351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF43061D5B194400300351 /* LaunchScreen.storyboard */; };
+		2EDF43131D5B194400300351 /* YXPressRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43121D5B194400300351 /* YXPressRecordTests.m */; };
+		2EDF431E1D5B194400300351 /* YXPressRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF431D1D5B194400300351 /* YXPressRecordUITests.m */; };
+		2EDF43451D5B19D600300351 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDF43441D5B19D600300351 /* AVFoundation.framework */; };
+		2EDF43471D5B19DB00300351 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDF43461D5B19DB00300351 /* QuartzCore.framework */; };
+		2EDF438F1D5B266F00300351 /* CALevelMeter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43801D5B266F00300351 /* CALevelMeter.mm */; };
+		2EDF43901D5B266F00300351 /* GLLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43821D5B266F00300351 /* GLLevelMeter.m */; };
+		2EDF43911D5B266F00300351 /* LevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43841D5B266F00300351 /* LevelMeter.m */; };
+		2EDF43921D5B266F00300351 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43851D5B266F00300351 /* MeterTable.cpp */; };
+		2EDF43931D5B266F00300351 /* UIColor+hexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF43881D5B266F00300351 /* UIColor+hexColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EDF430F1D5B194400300351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDF42ED1D5B194300300351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDF42F41D5B194300300351;
+			remoteInfo = YXPressRecord;
+		};
+		2EDF431A1D5B194400300351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EDF42ED1D5B194300300351 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EDF42F41D5B194300300351;
+			remoteInfo = YXPressRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0216401D5C20480050E5BE /* YXPressRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPressRecordView.h; sourceTree = "<group>"; };
+		2E0216411D5C20480050E5BE /* YXPressRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPressRecordView.m; sourceTree = "<group>"; };
+		2E0216421D5C20480050E5BE /* YXSpeechView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSpeechView.h; sourceTree = "<group>"; };
+		2E0216431D5C20480050E5BE /* YXSpeechView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YXSpeechView.mm; sourceTree = "<group>"; };
+		2EDF42F51D5B194300300351 /* YXPressRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXPressRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDF42F91D5B194300300351 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EDF42FB1D5B194300300351 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EDF42FC1D5B194300300351 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EDF42FE1D5B194300300351 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EDF42FF1D5B194300300351 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EDF43041D5B194400300351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EDF43071D5B194400300351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EDF43091D5B194400300351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDF430E1D5B194400300351 /* YXPressRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXPressRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDF43121D5B194400300351 /* YXPressRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPressRecordTests.m; sourceTree = "<group>"; };
+		2EDF43141D5B194400300351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDF43191D5B194400300351 /* YXPressRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXPressRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDF431D1D5B194400300351 /* YXPressRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPressRecordUITests.m; sourceTree = "<group>"; };
+		2EDF431F1D5B194400300351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDF43441D5B19D600300351 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2EDF43461D5B19DB00300351 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2EDF437F1D5B266F00300351 /* CALevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALevelMeter.h; sourceTree = "<group>"; };
+		2EDF43801D5B266F00300351 /* CALevelMeter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CALevelMeter.mm; sourceTree = "<group>"; };
+		2EDF43811D5B266F00300351 /* GLLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLevelMeter.h; sourceTree = "<group>"; };
+		2EDF43821D5B266F00300351 /* GLLevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLevelMeter.m; sourceTree = "<group>"; };
+		2EDF43831D5B266F00300351 /* LevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeter.h; sourceTree = "<group>"; };
+		2EDF43841D5B266F00300351 /* LevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeter.m; sourceTree = "<group>"; };
+		2EDF43851D5B266F00300351 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		2EDF43861D5B266F00300351 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		2EDF43871D5B266F00300351 /* UIColor+hexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hexColor.h"; sourceTree = "<group>"; };
+		2EDF43881D5B266F00300351 /* UIColor+hexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hexColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EDF42F21D5B194300300351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDF43471D5B19DB00300351 /* QuartzCore.framework in Frameworks */,
+				2EDF43451D5B19D600300351 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF430B1D5B194400300351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF43161D5B194400300351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDF42EC1D5B194300300351 = {
+			isa = PBXGroup;
+			children = (
+				2EDF437D1D5B266F00300351 /* Source */,
+				2EDF43461D5B19DB00300351 /* QuartzCore.framework */,
+				2EDF43441D5B19D600300351 /* AVFoundation.framework */,
+				2EDF42F71D5B194300300351 /* YXPressRecord */,
+				2EDF43111D5B194400300351 /* YXPressRecordTests */,
+				2EDF431C1D5B194400300351 /* YXPressRecordUITests */,
+				2EDF42F61D5B194300300351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EDF42F61D5B194300300351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF42F51D5B194300300351 /* YXPressRecord.app */,
+				2EDF430E1D5B194400300351 /* YXPressRecordTests.xctest */,
+				2EDF43191D5B194400300351 /* YXPressRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EDF42F71D5B194300300351 /* YXPressRecord */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF42FB1D5B194300300351 /* AppDelegate.h */,
+				2EDF42FC1D5B194300300351 /* AppDelegate.m */,
+				2EDF42FE1D5B194300300351 /* ViewController.h */,
+				2EDF42FF1D5B194300300351 /* ViewController.m */,
+				2EDF43041D5B194400300351 /* Assets.xcassets */,
+				2EDF43061D5B194400300351 /* LaunchScreen.storyboard */,
+				2EDF43091D5B194400300351 /* Info.plist */,
+				2EDF42F81D5B194300300351 /* Supporting Files */,
+			);
+			path = YXPressRecord;
+			sourceTree = "<group>";
+		};
+		2EDF42F81D5B194300300351 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF42F91D5B194300300351 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EDF43111D5B194400300351 /* YXPressRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF43121D5B194400300351 /* YXPressRecordTests.m */,
+				2EDF43141D5B194400300351 /* Info.plist */,
+			);
+			path = YXPressRecordTests;
+			sourceTree = "<group>";
+		};
+		2EDF431C1D5B194400300351 /* YXPressRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF431D1D5B194400300351 /* YXPressRecordUITests.m */,
+				2EDF431F1D5B194400300351 /* Info.plist */,
+			);
+			path = YXPressRecordUITests;
+			sourceTree = "<group>";
+		};
+		2EDF437D1D5B266F00300351 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF437E1D5B266F00300351 /* AudioViews */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2EDF437E1D5B266F00300351 /* AudioViews */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF437F1D5B266F00300351 /* CALevelMeter.h */,
+				2EDF43801D5B266F00300351 /* CALevelMeter.mm */,
+				2EDF43811D5B266F00300351 /* GLLevelMeter.h */,
+				2EDF43821D5B266F00300351 /* GLLevelMeter.m */,
+				2EDF43831D5B266F00300351 /* LevelMeter.h */,
+				2EDF43841D5B266F00300351 /* LevelMeter.m */,
+				2EDF43851D5B266F00300351 /* MeterTable.cpp */,
+				2EDF43861D5B266F00300351 /* MeterTable.h */,
+				2EDF43871D5B266F00300351 /* UIColor+hexColor.h */,
+				2EDF43881D5B266F00300351 /* UIColor+hexColor.m */,
+				2E0216401D5C20480050E5BE /* YXPressRecordView.h */,
+				2E0216411D5C20480050E5BE /* YXPressRecordView.m */,
+				2E0216421D5C20480050E5BE /* YXSpeechView.h */,
+				2E0216431D5C20480050E5BE /* YXSpeechView.mm */,
+			);
+			path = AudioViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EDF42F41D5B194300300351 /* YXPressRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDF43221D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecord" */;
+			buildPhases = (
+				2EDF42F11D5B194300300351 /* Sources */,
+				2EDF42F21D5B194300300351 /* Frameworks */,
+				2EDF42F31D5B194300300351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXPressRecord;
+			productName = YXPressRecord;
+			productReference = 2EDF42F51D5B194300300351 /* YXPressRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EDF430D1D5B194400300351 /* YXPressRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDF43251D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecordTests" */;
+			buildPhases = (
+				2EDF430A1D5B194400300351 /* Sources */,
+				2EDF430B1D5B194400300351 /* Frameworks */,
+				2EDF430C1D5B194400300351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDF43101D5B194400300351 /* PBXTargetDependency */,
+			);
+			name = YXPressRecordTests;
+			productName = YXPressRecordTests;
+			productReference = 2EDF430E1D5B194400300351 /* YXPressRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EDF43181D5B194400300351 /* YXPressRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EDF43281D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecordUITests" */;
+			buildPhases = (
+				2EDF43151D5B194400300351 /* Sources */,
+				2EDF43161D5B194400300351 /* Frameworks */,
+				2EDF43171D5B194400300351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EDF431B1D5B194400300351 /* PBXTargetDependency */,
+			);
+			name = YXPressRecordUITests;
+			productName = YXPressRecordUITests;
+			productReference = 2EDF43191D5B194400300351 /* YXPressRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EDF42ED1D5B194300300351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = reylen;
+				TargetAttributes = {
+					2EDF42F41D5B194300300351 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2EDF430D1D5B194400300351 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2EDF42F41D5B194300300351;
+					};
+					2EDF43181D5B194400300351 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2EDF42F41D5B194300300351;
+					};
+				};
+			};
+			buildConfigurationList = 2EDF42F01D5B194300300351 /* Build configuration list for PBXProject "YXPressRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EDF42EC1D5B194300300351;
+			productRefGroup = 2EDF42F61D5B194300300351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EDF42F41D5B194300300351 /* YXPressRecord */,
+				2EDF430D1D5B194400300351 /* YXPressRecordTests */,
+				2EDF43181D5B194400300351 /* YXPressRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EDF42F31D5B194300300351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDF43081D5B194400300351 /* LaunchScreen.storyboard in Resources */,
+				2EDF43051D5B194400300351 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF430C1D5B194400300351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF43171D5B194400300351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EDF42F11D5B194300300351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDF438F1D5B266F00300351 /* CALevelMeter.mm in Sources */,
+				2E0216451D5C20480050E5BE /* YXSpeechView.mm in Sources */,
+				2E0216441D5C20480050E5BE /* YXPressRecordView.m in Sources */,
+				2EDF43931D5B266F00300351 /* UIColor+hexColor.m in Sources */,
+				2EDF43001D5B194300300351 /* ViewController.m in Sources */,
+				2EDF43911D5B266F00300351 /* LevelMeter.m in Sources */,
+				2EDF42FD1D5B194300300351 /* AppDelegate.m in Sources */,
+				2EDF42FA1D5B194300300351 /* main.m in Sources */,
+				2EDF43901D5B266F00300351 /* GLLevelMeter.m in Sources */,
+				2EDF43921D5B266F00300351 /* MeterTable.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF430A1D5B194400300351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDF43131D5B194400300351 /* YXPressRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EDF43151D5B194400300351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDF431E1D5B194400300351 /* YXPressRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EDF43101D5B194400300351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDF42F41D5B194300300351 /* YXPressRecord */;
+			targetProxy = 2EDF430F1D5B194400300351 /* PBXContainerItemProxy */;
+		};
+		2EDF431B1D5B194400300351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EDF42F41D5B194300300351 /* YXPressRecord */;
+			targetProxy = 2EDF431A1D5B194400300351 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EDF43061D5B194400300351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EDF43071D5B194400300351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EDF43201D5B194400300351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EDF43211D5B194400300351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EDF43231D5B194400300351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXPressRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EDF43241D5B194400300351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YXPressRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EDF43261D5B194400300351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXPressRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXPressRecord.app/YXPressRecord";
+			};
+			name = Debug;
+		};
+		2EDF43271D5B194400300351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YXPressRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXPressRecord.app/YXPressRecord";
+			};
+			name = Release;
+		};
+		2EDF43291D5B194400300351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXPressRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXPressRecord;
+			};
+			name = Debug;
+		};
+		2EDF432A1D5B194400300351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YXPressRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.histron.YXPressRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YXPressRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EDF42F01D5B194300300351 /* Build configuration list for PBXProject "YXPressRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDF43201D5B194400300351 /* Debug */,
+				2EDF43211D5B194400300351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDF43221D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDF43231D5B194400300351 /* Debug */,
+				2EDF43241D5B194400300351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDF43251D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDF43261D5B194400300351 /* Debug */,
+				2EDF43271D5B194400300351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EDF43281D5B194400300351 /* Build configuration list for PBXNativeTarget "YXPressRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EDF43291D5B194400300351 /* Debug */,
+				2EDF432A1D5B194400300351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EDF42ED1D5B194300300351 /* Project object */;
+}
